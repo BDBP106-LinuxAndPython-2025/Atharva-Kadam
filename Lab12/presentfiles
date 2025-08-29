@@ -1,0 +1,14 @@
+.:
+total 44
+-rw-rw-r-- 1 ibab ibab  54 Aug 29 14:28 filesnotpresent
+-rw-rw-r-- 1 ibab ibab 154 Aug 29 14:28 listoffiles
+-rw-rw-r-- 1 ibab ibab  10 Aug 28 16:59 nums.txt
+-rw-rw-r-- 1 ibab ibab   0 Aug 29 14:28 presentfiles
+-rw-rw-r-- 1 ibab ibab  67 Aug 28 15:10 question1.sh
+-rw-rw-r-- 1 ibab ibab 286 Aug 29 14:14 question2.sh
+-rw-rw-r-- 1 ibab ibab  94 Aug 28 17:04 question3.sh
+-rw-rw-r-- 1 ibab ibab 183 Aug 29 14:14 question4.sh
+-rw-rw-r-- 1 ibab ibab 285 Aug 29 14:26 question5.sh
+-rw-rw-r-- 1 ibab ibab 179 Aug 28 19:15 question6.sh
+-rw-rw-r-- 1 ibab ibab 179 Aug 28 20:12 question7.sh
+-rw-rw-r-- 1 ibab ibab 632 Aug 29 14:28 question8.sh
