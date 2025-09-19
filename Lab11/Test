@@ -1,0 +1,16 @@
+dna()
+read -ra dna < IA1-sequence.txt
+A=$( echo "${dna[*]}" | grep -o "A"| wc -w )
+G=$( echo "${dna[*]}" | grep -o "G"| wc -w )
+C=$( echo "${dna[*]}" | grep -o "C"| wc -w )
+T=$( echo "${dna[*]}" | grep -o "T"| wc -w )
+echo "The number of Thymine is:" $T 
+echo "The number of Adenine is:" $A
+echo "The number of Guanine is:" $G
+echo "The number of Cytosine is:" $C
+length=$[ "$A"+"$G"+"$C"+"$T" ]
+echo "The length of the DNA sequence is" $length
+GC=$[ $G+$C ]
+GC_content=$(echo "scale=3;$GC/$length" | bc )
+GC_percent=$(echo "scale=1;$GC_content*100" | bc )
+echo $GC_percent"%"
