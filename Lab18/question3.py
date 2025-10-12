@@ -52,7 +52,6 @@ words=a.split()
 print(words)
 word_longest=[i for i in words if len(i)==max(len(i) for i in words)]
 print(word_longest)
-
 """(iv) Create a list of the words that are repeated in the above sentence."""
 b="She sells sea shells that she collects from the sea floor"
 words=b.lower().split()
